@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness | Rocco Stowe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: #050505;
+      color: #f5f5f7;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+
+    .hero img {
+      width: 100%;
+      max-height: 500px;
+      object-fit: contain;
+      border-radius: 24px;
+      background: #111;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 500;
+      margin-top: 40px;
+      letter-spacing: -0.03em;
+    }
+
+    .subtitle {
+      color: rgba(255,255,255,0.7);
+      margin-top: 16px;
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    .section {
+      margin-top: 60px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 24px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-weight: 500;
+    }
+
+    .card p {
+      color: rgba(255,255,255,0.6);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .cta {
+      margin-top: 80px;
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      border-radius: 999px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HERO IMAGE -->
+  <div class="hero">
+    <img src="fitness.jpg" alt="Rocco training">
+  </div>
+
+  <!-- TITLE -->
+  <h1>Train with intention.</h1>
+
+  <p class="subtitle">
+    Strength, mobility, and discipline—built through a balanced approach to training.
+  </p>
+
+  <!-- WHAT HE DOES -->
+  <div class="section">
+    <div class="grid">
+
+      <div class="card">
+        <h3>Yoga</h3>
+        <p>Mobility, breath, and control to build a strong foundation.</p>
+      </div>
+
+      <div class="card">
+        <h3>Weight Training</h3>
+        <p>Strength-focused programming tailored to your goals.</p>
+      </div>
+
+      <div class="card">
+        <h3>Jiu Jitsu</h3>
+        <p>Technique, discipline, and real-world movement.</p>
+      </div>
+
+      <div class="card">
+        <h3>Personal Coaching</h3>
+        <p>1:1 guidance for performance, mindset, and consistency.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CREDENTIALS -->
+  <div class="section">
+    <h2 style="font-weight: 500;">Credentials</h2>
+    <p class="subtitle">
+      NASM Certified Personal Trainer
+    </p>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta">
+    <a href="#" class="button">Start Training</a>
+  </div>
+
+</div>
+
+</body>
+</html>
